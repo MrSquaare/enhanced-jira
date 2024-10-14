@@ -1,6 +1,14 @@
-import { defineConfig } from 'wxt';
+import { defineConfig } from "wxt";
 
 // See https://wxt.dev/api/config.html
 export default defineConfig({
-  modules: ['@wxt-dev/module-react'],
+  manifest: {
+    name: "Enhanced Jira",
+    permissions: ["storage"],
+  },
+  autoIcons: {
+    baseIconPath: "public/icon.svg",
+  },
+  modules: ["@wxt-dev/module-react", "@wxt-dev/auto-icons"],
+  srcDir: "src",
 });
