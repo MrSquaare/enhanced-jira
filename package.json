@@ -15,7 +15,19 @@
     "postinstall": "wxt prepare"
   },
   "dependencies": {
+    "@atlaskit/button": "^20.2.5",
+    "@atlaskit/editor-wikimarkup-transformer": "^11.12.0",
+    "@atlaskit/form": "^10.5.6",
+    "@atlaskit/icon": "^22.22.0",
+    "@atlaskit/link-provider": "^1.16.1",
+    "@atlaskit/primitives": "^12.2.5",
+    "@atlaskit/renderer": "^111.2.1",
+    "@atlaskit/select": "^18.1.1",
+    "@atlaskit/toggle": "^13.4.5",
+    "@nanostores/react": "^0.8.0",
+    "nanostores": "^0.11.3",
     "react": "^18.3.1",
+    "react-diff-viewer": "^3.1.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {

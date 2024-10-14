@@ -11,4 +11,11 @@ export default defineConfig({
   },
   modules: ["@wxt-dev/module-react", "@wxt-dev/auto-icons"],
   srcDir: "src",
+  vite: () => {
+    return {
+      define: {
+        "process.env": {},
+      },
+    };
+  },
 });
